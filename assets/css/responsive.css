@@ -1,0 +1,43 @@
+/* Dùng cho tablet và PC */
+@media (min-width:46.25em) {
+    .song .body {
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+
+    .song .body .title {
+        font-size: 24px;
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .song .body .author {
+        font-size: 20px;
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
+
+/* Chỉ PC */
+@media (min-width:64em) {
+
+    .btn:hover,
+    .song .option:hover {
+        color: #000;
+        opacity: 0.5;
+        background-color: #561fec;
+
+    }
+
+    .song .body .title {
+        margin: 0 0 0 200px
+    }
+}
+
+/* Chỉ Tablet */
+@media (min-width:46.25em) and (max-width:63.9375em) {
+    .song .body .title {
+        margin: 0 0 0 100px
+    }
+}
