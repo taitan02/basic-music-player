@@ -48,7 +48,7 @@ const app = {
         {
             name: 'Best friend',
             singer: 'Nishino Kana',
-            path: './assets/music/Best friend.mp3',
+            path: './assets/music/Best Friend.mp3',
             image: './assets/images/best friend.jpg'
         },
         {
