@@ -65,7 +65,7 @@ const app = {
         },
         {
             name: 'Trời giấu trời mang đi',
-            singer: 'Amee-Hoàng Dũng',
+            singer: 'Amee ft Hoàng Dũng',
             path: './assets/music/Trời giấu trời mang đi.mp3',
             image: './assets/images/tgtmd.jpg'
         },
