@@ -313,7 +313,7 @@ const app = {
     },
     start: function () {
         //Tải cấu hình lưu trong localStorage
-        // this.loadConfig()
+        this.loadConfig()
         //Đingh nghĩa các thuộc tính cho Object
         this.defineProperties()
         //Lắng nghe, xử lý các sự kiện (DOM event)
